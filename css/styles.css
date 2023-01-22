@@ -1,5 +1,6 @@
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .logo {
@@ -33,6 +34,14 @@ body {
     line-height: 24px;
 }
 
+.links:active {
+    color: #404BBF;
+}
+
+.contact:active {
+    color: #404BBF;
+}
+
 .contact {
     color: #434455;
     text-decoration: none;
@@ -59,6 +68,10 @@ body {
     line-height: 24px;
     color: #FFFFFF;
     background: #4D5AE5;
+}
+
+.button-studio:hover {
+    background: #404BBF;
 }
 
 .backgrond-section-one {
@@ -129,4 +142,22 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #434455;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
