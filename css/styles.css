@@ -5,6 +5,7 @@ body {
 
 .logo {
     font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
 }
 
 .logo.web {
@@ -34,11 +35,19 @@ body {
     line-height: 24px;
 }
 
-.links:active {
+.links:hover {
     color: #404BBF;
 }
 
-.contact:active {
+.links:focus {
+    color: #404BBF;
+}
+
+.contact:hover {
+    color: #404BBF;
+}
+
+.contact:focus {
     color: #404BBF;
 }
 
@@ -160,4 +169,12 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+.title-h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #2E2F42;
 }
