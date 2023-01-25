@@ -95,6 +95,7 @@ img {
 
 .button-studio:hover {
     background: #404BBF;
+    cursor: pointer;
 }
 
 .backgrond-section-one {
@@ -149,6 +150,7 @@ img {
 .button-portfolio:hover {
     background: #404BBF;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .product-title {
